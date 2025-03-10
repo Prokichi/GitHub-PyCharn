@@ -5,9 +5,9 @@ else:
     result = 1
 for digit in number:
     result *= int(digit)
-print(result)'''
+print(result)
 
-'''meters = float(input('Введите количество метров'))
+meters = float(input('Введите количество метров'))
 centimeter = meters * 100
 decimeters = meters * 10
 millimeters = meters * 1000
