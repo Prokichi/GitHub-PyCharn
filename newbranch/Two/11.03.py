@@ -212,3 +212,12 @@ if loaded_shapes:
         shape.show()
 else:
     print("Список загруженных фигур пуст.")'''
+
+def longest_line_lenght(file):
+    with open(file, 'r', encoding='utf-8') as f:
+        data = f.readlines()
+        max1 = max(map(len, data))
+        for line in data:
+            if len(line.strip()) == max1:
+                print(line)
+                break
